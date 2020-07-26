@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Configuration;
  * @CreateTime : 2019/9/3
  * @Description :
  **/
-@Configuration
+//@Configuration
 public class DirectRabbitConfig {
 
-    //队列 起名：TestDirectQueue
+    /*//队列 起名：TestDirectQueue
     @Bean
     public Queue TestDirectQueue() {
         // durable:是否持久化,默认是false,持久化队列：会被存储在磁盘上，当消息代理重启时仍然存在，暂存队列：当前连接有效
@@ -45,7 +45,7 @@ public class DirectRabbitConfig {
     @Bean
     DirectExchange lonelyDirectExchange() {
         return new DirectExchange("lonelyDirectExchange");
-    }
+    }*/
 
 
 
